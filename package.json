@@ -13,7 +13,7 @@
   "license": "MIT",
   "homepage": "",
   "repository": {
-    "url": "https://ToDo.....",
+    "url": "https://github.com/eramos-ui/era-custom-components",
     "type": "git"
   },
   "files": [
@@ -28,6 +28,9 @@
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
+  "engines":{
+    "node":">=12.0.0"
+  },
   "scripts": {
     "dev": "npm run storybook dev -p 6006",
     "build": "npm run clean && tsc && npm run copyfiles",
@@ -36,7 +39,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "clean":"rimraf dist/",
-    "copyfiles":"copyfiles -u 1 src/**/*.css dist/"
+    "copyfiles":"copyfiles -u 1 src/**/*.css dist/",
+    "push:npm":"np"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.9.0",
