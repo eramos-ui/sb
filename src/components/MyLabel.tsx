@@ -1,7 +1,7 @@
 import './MyLabel.css';
 
 
-interface Props {//para cambiar las props del control
+export interface Props {//para cambiar las props del control
    /**
     * Text to display
     */
