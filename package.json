@@ -41,8 +41,7 @@
     "clean":"rimraf dist/",
     "copyfiles":"copyfiles -u 1 src/**/*.css dist/",
     "push:npm":"np",
-    "test":"echo 'all tests were good'"
-
+    "test":"echo "
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.9.0",
